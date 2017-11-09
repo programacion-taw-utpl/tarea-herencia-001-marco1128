@@ -2,16 +2,16 @@
 
 En el presente proyecto, usted debe subir los archivos en lenguaje de programación JAVA 
 
-Problemática 
-paquete personal
-Clase Persona
+## Problemática 
+#paquete personal
+#clase Persona
 	atributos:	
 			nombres
 			apellidos
 			edad
 			cedula
 
-Clase Trabajador - hereda de Persona
+# clase Trabajador - hereda de Persona
 	atributos:
 			costo_seguro
 			horas_trabajadas
@@ -19,15 +19,16 @@ Clase Trabajador - hereda de Persona
 	métodos:
 			obtener_sueldo ((horas x costo_hora)+costo_seguro)
 					
-paquete laempresa
-clase Empresa
+
+#paquete laempresa
+#clase Empresa
 	atributos:
 			nombre
 			siglas
 			ciudad
 			trabajadores tipo Arreglo Trabajador
 			
-clase EmpresaPrivada - hereda de Empresa
+# clase EmpresaPrivada - hereda de Empresa
 	atributos:
 			ventas_mensual_fijo
 			numero_sucursales
@@ -35,7 +36,7 @@ clase EmpresaPrivada - hereda de Empresa
 
 Para todas las clases anteriores crear constructores, métodos establecer y obtener por cada atributo y sobrescribir el método toString
 
-clase Principal
+# clase Principal
 			método main
 				- Crear un objeto EmpresaPrivada, que genere el siguiente reporte:
 				
@@ -59,4 +60,4 @@ clase Principal
 						Seguro: $100
 						Horas Trabajadas: 50
 						Valor x Hora: $ 10
-						Sueldo: 600
+						Sueldo: 600****
